@@ -2,6 +2,8 @@
 
 slightly more convenient venv switching
 
+requires python >= 3.6.5
+
 ## installation
 ```
 cd ./pvm
