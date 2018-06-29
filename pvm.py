@@ -3,10 +3,8 @@ from pathlib import Path
 import os
 
 parser = argparse.ArgumentParser(description='switch virtual environments')
-
 parser.add_argument('command',type=str,help='init, use')
 parser.add_argument('folder',type=str,help='virtual environment directory')
-
 parsed = parser.parse_args()
 
 # init
