@@ -1,0 +1,11 @@
+PVM_ARGS=$@
+PVM_OUTPUT=`$PVM_PYTHON $PVM_FILENAME $PVM_ARGS`
+
+if [[ $PVM_OUTPUT == *bin/activate* ]]; then
+  source $PVM_OUTPUT
+fi
+
+if [ ! -z "$PVM_OUTPUT" ]; then
+  echo "$PVM_OUTPUT"
+fi
+
