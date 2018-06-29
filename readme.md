@@ -7,7 +7,6 @@ requires python >= 3.6.5
 
 ```
 cd ./pvm
-
 python ./profile.py >> ~/.profile
 source ~/.profile
 
