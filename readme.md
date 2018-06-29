@@ -2,7 +2,7 @@
 
 slightly more convenient venv switching
 
-## install
+### install
 requires python >= 3.6.5
 
 ```
@@ -23,7 +23,7 @@ pvm init <dir>
 pvm use <dir>
 ```
 
-## @todo
+### @todo
 - venv folder history
   - most common first
 
