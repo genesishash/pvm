@@ -4,7 +4,7 @@ slightly more convenient venv switching
 
 requires python >= 3.6.5
 
-## installation
+## install
 ```
 cd ./pvm
 
@@ -14,12 +14,12 @@ source ~/.profile
 pvm --help
 ```
 
-### usage: create new venv
+### create new venv dir
 ```
 pvm init <dir>
 ```
 
-### usage: source existing venv
+### us existing venv dir
 ```
 pvm use <dir>
 ```
