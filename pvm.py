@@ -11,6 +11,7 @@ parsed = parser.parse_args()
 if parsed.command == 'init':
   if Path(parsed.folder).exists():
     raise FileExistsError(f'{parsed.folder} exists')
+
   os.system(f'$PVM_PYTHON -m venv {parsed.folder}')
   exit()
 
