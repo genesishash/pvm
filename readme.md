@@ -23,8 +23,6 @@ pvm init <dir>
 pvm use <dir>
 ```
 
----
-
 ## @todo
 - venv folder history
   - most common first
