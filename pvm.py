@@ -19,8 +19,7 @@ elif parsed.command == 'use':
   if not Path(parsed.folder).exists():
     raise FileNotFoundError(f'{parsed.folder} not found')
 
-  activate = f'{os.path.abspath(parsed.folder)}/bin/activate'
-  print(activate)
+  print(f'{os.path.abspath(parsed.folder)}/bin/activate')
   exit()
 
 else:
