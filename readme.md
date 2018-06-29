@@ -27,4 +27,5 @@ pvm use <dir>
 - venv folder history
   - most common first
   - easy switch
+- auto append .gitignore ifexists
 
