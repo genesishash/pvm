@@ -26,4 +26,5 @@ pvm use <dir>
 ### @todo
 - venv folder history
   - most common first
+  - easy switch
 
